@@ -117,7 +117,7 @@ The main steps of the evaluation pipeline are as follows:
 4. Create an EC2 instance with the following specifications:
     - **AMI**: Deep Learning OSS Nvidia Driver AMI GPU PyTorch 2.7 (Ubuntu 22.04)
     - **Instance type**: `t3.medium` (`t2.micro` could result in a timeout during the execution of the Streamlit application [app.py](src/web_app/app.py))
-    - **Key Pair**: Use the key pair you download to connect via SSH
+    - **Key Pair**: Use the key pair you downloaded to connect via SSH
     - **Security Group**:
         - Allow inbound rules for ports: `22`, `80`, `8501`, `8502` (all TCP)
     - **Storage**: 120 GiB (gp3)
