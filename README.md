@@ -178,7 +178,7 @@ The main steps of the evaluation pipeline are as follows:
         ```bash
         crontab -e
         ```
-        Add the following line at the end of file:
+        Add the following line at the end of the file:
         ```bash
         @reboot /home/ubuntu/start_streamlit.sh
         ```
