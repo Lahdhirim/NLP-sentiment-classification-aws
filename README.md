@@ -128,7 +128,7 @@ The main steps of the evaluation pipeline are as follows:
         mkdir mlops
         cd mlops
         ```
-    - Clone your GitHub repo:
+    - Clone the GitHub repo:
         ```bash
         git clone https://github.com/Lahdhirim/NLP-sentiment-classification-aws.git
         cd NLP-sentiment-classification-aws
